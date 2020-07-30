@@ -7,21 +7,22 @@ GET /sessionSpeedVariance
 GET /sessionDistance
 
 
-### Prerequisites
-
-* A computer running Linux, macOS, or Windows
-* An internet connection
-* A Python 3 installation
-
+### setup virtual environment
+```
+% python3 -m venv localenv
+% source localenv/bin/activate
+```
 
 ### Installing
-
+```
 pip3 install -r requirements.txt
+```
+### Run
 
-
-## Deployment
-
-TBD
+```
+% cd clmapi
+% clmApi % python app.py 
+```
 
 ## Built With
 
